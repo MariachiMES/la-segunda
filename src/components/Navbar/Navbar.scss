@@ -1,0 +1,155 @@
+@import "../../global.scss";
+
+.navbar {
+  color: white;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  transition: all 2s ease;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .wrapper {
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    text-shadow: black 2px 2px;
+
+    #phone {
+      font-size: 25px;
+      margin-right: 10px;
+      font-weight: bolder;
+
+      @include tablet {
+        font-size: 15px;
+        margin-right: 5px;
+        font-weight: bold;
+      }
+    }
+    .logo {
+      font-size: 35px;
+      font-weight: 700;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      margin-right: 40px;
+      font-weight: bolder;
+
+      @include mobile {
+        font-size: 25px;
+      }
+      @include tablet {
+        font-size: 25px;
+      }
+    }
+    .itemContainer {
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+
+      @include mobile {
+        display: none;
+      }
+    }
+    .envelope {
+      font-size: px;
+      margin-right: 30px;
+
+      @include tablet {
+        font-size: 15px;
+        margin-right: 5px;
+      }
+    }
+    #phone-number {
+      font-size: 25px;
+      margin-left: 25px;
+      margin-right: 30px;
+      font-weight: bold;
+      @include tablet {
+        font-size: 15px;
+        margin-right: 15px;
+      }
+    }
+    #email-address {
+      font-size: 25px;
+      margin-left: 14px;
+      margin-right: 30px;
+      font-weight: bold;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      @include tablet {
+        font-size: 15px;
+        margin-right: 20px;
+      }
+    }
+    #address {
+      font-size: 25px;
+      margin-left: 14px;
+      margin-right: 30px;
+      font-weight: bold;
+
+      @include tablet {
+        font-size: 15px;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .right {
+    .hamburger {
+      width: 32px;
+      height: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+
+      span {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        transform-origin: left;
+        transition: all 1.5s ease;
+      }
+    }
+  }
+
+  &.active {
+    color: white;
+    transition: all 1.5s ease;
+
+    .hamburger {
+      span {
+        &:first-child {
+          background-color: white;
+          transform: rotate(20deg);
+          stroke-linejoin: round;
+        }
+        &:nth-child(2) {
+          transform: rotate(90deg) translate(-12px);
+          width: 70%;
+          stroke-linejoin: round;
+        }
+        &:last-child {
+          background-color: white;
+          transform: rotate(-20deg);
+          stroke-linejoin: round;
+        }
+      }
+    }
+  }
+}

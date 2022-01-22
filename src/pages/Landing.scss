@@ -1,0 +1,53 @@
+@import "../global.scss";
+
+.spacer {
+  height: 300px;
+  background-color: black;
+
+  @include mobile {
+    height: 100px;
+  }
+  .retro-circles {
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    .left {
+      width: 60px;
+      .outer-circle {
+        border-radius: 50%;
+        background-color: rgb(88, 40, 133);
+        height: 60px;
+        width: 60px;
+        display: flex;
+        .middle-circle {
+          border-radius: 50%;
+          background-color: rgb(202, 24, 92);
+          height: 40px;
+          width: 40px;
+          margin: auto;
+          display: flex;
+
+          .inner-circle {
+            border-radius: 50%;
+            background-color: rgb(247, 205, 142);
+            height: 20px;
+            width: 20px;
+            margin: auto;
+            display: flex;
+          }
+        }
+      }
+    }
+    .right {
+      align-items: right;
+      width: auto;
+      .top-bar {
+        height: 10px;
+        background-color: rgb(247, 205, 142);
+      }
+    }
+  }
+}

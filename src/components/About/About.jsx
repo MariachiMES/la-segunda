@@ -14,7 +14,7 @@ export default function About() {
           <div className="text-container">
             <div className="about-text">
               <h1>Vintage Things and Drinks</h1>
-              <h3>Find Antique Things, Come on In.</h3>
+              <h3>Antiques.</h3>
             </div>
           </div>
         </div>

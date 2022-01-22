@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="About">
       <Parallax
-        bgImage={require("../../public/images/P1240757.JPG")}
+        className="about-parallax"
         strength={500}
         bgImageStyle={{ width: "100%", height: "auto" }}
       >

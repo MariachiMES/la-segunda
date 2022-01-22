@@ -5,12 +5,11 @@ export default function Herobanner() {
   return (
     <div className="HeroBanner">
       <Parallax
-        bgImage={require("../../public/images/hero-splash-mosaic.png")}
+        className="parallax-banner"
         strength={500}
         bgImageStyle={{
           width: "100%",
           height: "auto",
-          filter: "grayscale(70%)",
         }}
       >
         <div className="big-container">

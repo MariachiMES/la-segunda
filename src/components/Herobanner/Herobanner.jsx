@@ -7,7 +7,11 @@ export default function Herobanner() {
       <Parallax
         bgImage={require("../../public/images/hero-splash-mosaic.png")}
         strength={500}
-        bgImageStyle={{ width: "100%", height: "auto" }}
+        bgImageStyle={{
+          width: "100%",
+          height: "auto",
+          filter: "grayscale(70%)",
+        }}
       >
         <div className="big-container">
           <div className="logo-wrapper">

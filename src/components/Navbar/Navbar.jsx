@@ -5,7 +5,7 @@ import {
   faMicrophone,
   faRecordVinyl,
   faIcons,
-  faMusic,
+  faGlassMartiniAlt,
   faHeadphones,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,10 +16,10 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         <div className="left">
           <a href="porfolio" className="logo">
             <FontAwesomeIcon
-              icon={faRecordVinyl}
+              icon={faGlassMartiniAlt}
               style={{ color: "teal", paddingRight: "6px" }}
             ></FontAwesomeIcon>
-            La Segunda
+            Bartique
           </a>
           <div className="itemContainer">
             <span id="phone-number">

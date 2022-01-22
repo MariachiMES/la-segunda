@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MariachiMES/la-segunda/static/css/main.295a0057.css",
-    "main.js": "/MariachiMES/la-segunda/static/js/main.04e57fdc.js",
+    "main.js": "/MariachiMES/la-segunda/static/js/main.c6ffd30a.js",
     "static/js/787.0218dedd.chunk.js": "/MariachiMES/la-segunda/static/js/787.0218dedd.chunk.js",
     "static/media/hero-splash-dark.png": "/MariachiMES/la-segunda/static/media/hero-splash-dark.698b94a0ea5551d6f771.png",
     "static/media/P1240757.JPG": "/MariachiMES/la-segunda/static/media/P1240757.fe70482583d5c6b5fcd1.JPG",
@@ -11,11 +11,11 @@
     "static/media/facebook-icon.png": "/MariachiMES/la-segunda/static/media/facebook-icon.eab65c06e53dcc769022.png",
     "index.html": "/MariachiMES/la-segunda/index.html",
     "main.295a0057.css.map": "/MariachiMES/la-segunda/static/css/main.295a0057.css.map",
-    "main.04e57fdc.js.map": "/MariachiMES/la-segunda/static/js/main.04e57fdc.js.map",
+    "main.c6ffd30a.js.map": "/MariachiMES/la-segunda/static/js/main.c6ffd30a.js.map",
     "787.0218dedd.chunk.js.map": "/MariachiMES/la-segunda/static/js/787.0218dedd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.295a0057.css",
-    "static/js/main.04e57fdc.js"
+    "static/js/main.c6ffd30a.js"
   ]
 }

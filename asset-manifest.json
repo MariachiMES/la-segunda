@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/la-segunda/static/css/main.dd9db807.css",
-    "main.js": "/la-segunda/static/js/main.902847a4.js",
+    "main.css": "/la-segunda/static/css/main.f0a93ebe.css",
+    "main.js": "/la-segunda/static/js/main.b6a4f072.js",
     "static/js/787.0218dedd.chunk.js": "/la-segunda/static/js/787.0218dedd.chunk.js",
     "static/media/radio-bg.png": "/la-segunda/static/media/radio-bg.5d2d2eb1606fc268f916.png",
     "static/media/P1240685.JPG": "/la-segunda/static/media/P1240685.5c61d92d1c1fca135214.JPG",
@@ -9,12 +9,12 @@
     "static/media/instagram-icon.png": "/la-segunda/static/media/instagram-icon.8813ee4ddfbe23739448.png",
     "static/media/facebook-icon.png": "/la-segunda/static/media/facebook-icon.eab65c06e53dcc769022.png",
     "index.html": "/la-segunda/index.html",
-    "main.dd9db807.css.map": "/la-segunda/static/css/main.dd9db807.css.map",
-    "main.902847a4.js.map": "/la-segunda/static/js/main.902847a4.js.map",
+    "main.f0a93ebe.css.map": "/la-segunda/static/css/main.f0a93ebe.css.map",
+    "main.b6a4f072.js.map": "/la-segunda/static/js/main.b6a4f072.js.map",
     "787.0218dedd.chunk.js.map": "/la-segunda/static/js/787.0218dedd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd9db807.css",
-    "static/js/main.902847a4.js"
+    "static/css/main.f0a93ebe.css",
+    "static/js/main.b6a4f072.js"
   ]
 }

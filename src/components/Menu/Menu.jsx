@@ -20,6 +20,19 @@ export default function Menu({ menuOpen, setMenuOpen }) {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+        <div className="street-address">
+          {" "}
+          <h2>La Segunda</h2>
+          <h3>1302 S St. Mary's </h3>
+          <h3>San Antonio, TX 78210</h3>
+          <h3>210.314.2740</h3>
+        </div>
+        <div className="hours">
+          <h2>Hours of operation</h2>
+          <h3>MON, TUES: CLOSED</h3>
+          <h3>WED, THURS, FRI: 2P-8P</h3>
+          <h3>SAT, SUN: 11A-8P</h3>
+        </div>
       </Slide>
     </div>
   );

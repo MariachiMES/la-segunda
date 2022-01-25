@@ -16,6 +16,41 @@
   justify-content: center;
   border-left: rgb(255, 14, 66) solid 5px;
 
+  .street-address {
+    display: none;
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      text-align: center;
+
+      h2 {
+        font-weight: lighter;
+      }
+      h3 {
+        font-weight: lighter;
+      }
+    }
+  }
+  .hours {
+    display: none;
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      text-align: center;
+
+      h2 {
+        font-weight: lighter;
+      }
+      h3 {
+        font-weight: lighter;
+      }
+    }
+  }
+
   @include mobile {
     width: 100%;
     right: -102%;
@@ -39,7 +74,7 @@
     li {
       margin: 40px;
       @include mobile {
-        margin-bottom: 100px;
+        margin-bottom: 20px;
       }
       a {
         font-size: inherit;

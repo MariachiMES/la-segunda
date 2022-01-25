@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/la-segunda/static/css/main.f0a93ebe.css",
-    "main.js": "/la-segunda/static/js/main.b6a4f072.js",
+    "main.css": "/la-segunda/static/css/main.9fc1b6a0.css",
+    "main.js": "/la-segunda/static/js/main.76305dda.js",
     "static/js/787.0218dedd.chunk.js": "/la-segunda/static/js/787.0218dedd.chunk.js",
     "static/media/radio-bg.png": "/la-segunda/static/media/radio-bg.5d2d2eb1606fc268f916.png",
+    "static/media/P1240830.JPG": "/la-segunda/static/media/P1240830.3617c8614ddb17c559e2.JPG",
+    "static/media/P1240797.JPG": "/la-segunda/static/media/P1240797.8bd1c87441f4378fcfdd.JPG",
+    "static/media/P1240799.JPG": "/la-segunda/static/media/P1240799.42cdf891287a36f6fc81.JPG",
     "static/media/P1240685.JPG": "/la-segunda/static/media/P1240685.5c61d92d1c1fca135214.JPG",
+    "static/media/P1240695.JPG": "/la-segunda/static/media/P1240695.ab31aab8ca4caa77ea03.JPG",
     "static/media/la-segunda-fixed.png": "/la-segunda/static/media/la-segunda-fixed.1fca3acb709d728a9d22.png",
     "static/media/instagram-icon.png": "/la-segunda/static/media/instagram-icon.8813ee4ddfbe23739448.png",
     "static/media/facebook-icon.png": "/la-segunda/static/media/facebook-icon.eab65c06e53dcc769022.png",
     "index.html": "/la-segunda/index.html",
-    "main.f0a93ebe.css.map": "/la-segunda/static/css/main.f0a93ebe.css.map",
-    "main.b6a4f072.js.map": "/la-segunda/static/js/main.b6a4f072.js.map",
+    "main.9fc1b6a0.css.map": "/la-segunda/static/css/main.9fc1b6a0.css.map",
+    "main.76305dda.js.map": "/la-segunda/static/js/main.76305dda.js.map",
     "787.0218dedd.chunk.js.map": "/la-segunda/static/js/787.0218dedd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0a93ebe.css",
-    "static/js/main.b6a4f072.js"
+    "static/css/main.9fc1b6a0.css",
+    "static/js/main.76305dda.js"
   ]
 }

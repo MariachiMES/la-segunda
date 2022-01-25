@@ -1,6 +1,8 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 import "./Vendors.scss";
+import Slide from "react-reveal";
+
 export default function Vendors() {
   return (
     <div className="vendors">
@@ -12,19 +14,25 @@ export default function Vendors() {
           strengt={1000}
         >
           <div className="vendor-1-text">
-            <h1>Vendor 1</h1>
+            <Slide left>
+              <h1>Vendor 1</h1>
+            </Slide>
           </div>
         </Parallax>
         <div className="vendor-right">
-          <h1>Someone Selling Stuff</h1>
-          <h3>The Stuff They Sell</h3>
+          <Slide right>
+            <h1>Someone Selling Stuff</h1>
+            <h3>The Stuff They Sell</h3>
+          </Slide>
         </div>
       </div>
       <div className="vendor-2-container">
         <div className="vendor-left">
           {" "}
-          <h1>Someone Selling Stuff</h1>
-          <h3>The Stuff They Sell</h3>
+          <Slide left>
+            <h1>Someone Selling Stuff</h1>
+            <h3>The Stuff They Sell</h3>
+          </Slide>
         </div>
         <Parallax
           className="vendor-right"
@@ -34,7 +42,9 @@ export default function Vendors() {
         >
           {" "}
           <div className="vendor-2-text">
-            <h1>Vendor 2</h1>
+            <Slide right>
+              <h1>Vendor 2</h1>
+            </Slide>
           </div>
         </Parallax>
       </div>
@@ -46,19 +56,25 @@ export default function Vendors() {
           strengt={1000}
         >
           <div className="vendor-1-text">
-            <h1>Vendor 3</h1>
+            <Slide left>
+              <h1>Vendor 3</h1>
+            </Slide>
           </div>
         </Parallax>
         <div className="vendor-right">
-          <h1>Someone Selling Stuff</h1>
-          <h3>The Stuff They Sell</h3>
+          <Slide right>
+            <h1>Someone Selling Stuff</h1>
+            <h3>The Stuff They Sell</h3>
+          </Slide>
         </div>
       </div>
       <div className="vendor-2-container">
         <div className="vendor-left">
           {" "}
-          <h1>Someone Selling Stuff</h1>
-          <h3>The Stuff They Sell</h3>
+          <Slide left>
+            <h1>Someone Selling Stuff</h1>
+            <h3>The Stuff They Sell</h3>
+          </Slide>
         </div>
         <Parallax
           className="vendor-right"
@@ -68,7 +84,9 @@ export default function Vendors() {
         >
           {" "}
           <div className="vendor-2-text">
-            <h1>Vendor 4</h1>
+            <Slide right>
+              <h1>Vendor 4</h1>
+            </Slide>
           </div>
         </Parallax>
       </div>

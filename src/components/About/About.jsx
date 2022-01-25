@@ -16,8 +16,8 @@ export default function About() {
           <div className="text-container">
             <Slide left>
               <div className="about-text">
-                <h1>Vintage Things and Drinks</h1>
-                <h3>Antiques.</h3>
+                <h1>Vintage Gallery.</h1>
+                <h3>Classic Drinks.</h3>
               </div>
             </Slide>
           </div>

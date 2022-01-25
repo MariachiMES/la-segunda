@@ -3,16 +3,26 @@
 .About {
   margin: 0;
   padding: 0;
+  width: 100%;
+  display: flex;
+  @include mobile {
+  }
 
   .about-parallax {
-    background-image: url("../../public/images/P1240757.JPG");
-    backround-size: cover;
-    .big-container {
-      height: 500px;
-      margin-left: 500px;
+    display: flex;
+    width: 100vw;
+    background-size: cover;
+    @include mobile {
+      background-size: cover;
+
       display: flex;
+    }
+
+    .big-container {
+      display: flex;
+      height: 80vh;
       @include mobile {
-        height: 23vh;
+        height: 80vh;
       }
       .text-container {
         margin: 0;

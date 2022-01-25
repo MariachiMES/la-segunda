@@ -6,9 +6,11 @@ export default function About() {
   return (
     <div className="About">
       <Parallax
+        bgImage={require("../../public/images/P1240685.JPG")}
+        bgImageSize="cover"
         className="about-parallax"
         strength={500}
-        bgImageStyle={{ width: "100%", height: "auto" }}
+        bgImageStyle={{ width: "100vw", height: "auto" }}
       >
         <div className="big-container">
           <div className="text-container">

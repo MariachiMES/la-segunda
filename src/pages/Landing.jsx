@@ -12,9 +12,9 @@ export default function Landing() {
     <div>
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Herobanner />
+      <Herobanner></Herobanner>
       <div className="spacer"></div>
-      <About />
+      <About></About>
       <div className="spacer"></div>
     </div>
   );

@@ -3,10 +3,10 @@
 .spacer {
   height: 300px;
   background-color: black;
-
   @include mobile {
-    height: 100px;
+    height: 200px;
   }
+
   .retro-circles {
     align-items: center;
     justify-content: center;

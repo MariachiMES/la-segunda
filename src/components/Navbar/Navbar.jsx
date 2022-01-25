@@ -51,18 +51,28 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               </a>
             </span>
             <div className="socials">
-              <img
-                src={require("../../public/images/instagram-icon.png")}
-                style={{
-                  height: "50px",
-                  marginLeft: "40px",
-                  marginRight: "30px",
-                }}
-              ></img>
-              <img
-                src={require("../../public/images/facebook-icon.png")}
-                style={{ height: "50px" }}
-              ></img>
+              <a
+                href="https://www.instagram.com/la_segunda_bartiqueandgallery/"
+                targe="_blank"
+              >
+                <img
+                  src={require("../../public/images/instagram-icon.png")}
+                  style={{
+                    height: "50px",
+                    marginLeft: "40px",
+                    marginRight: "30px",
+                  }}
+                ></img>
+              </a>
+              <a
+                href="https://m.facebook.com/people/La-Segunda-Bartique-Gallery/100073228684341/"
+                targe="_blank"
+              >
+                <img
+                  src={require("../../public/images/facebook-icon.png")}
+                  style={{ height: "50px" }}
+                ></img>
+              </a>
             </div>
           </div>
         </div>

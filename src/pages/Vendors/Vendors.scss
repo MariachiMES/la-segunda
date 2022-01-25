@@ -1,0 +1,67 @@
+@import "../../global.scss";
+
+.vendors {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  .vendor-1-container {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    .vendor-1-text {
+      display: flex;
+      margin: auto;
+      padding: auto;
+      color: white;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .vendor-left {
+      display: flex;
+      flex: 0.5;
+    }
+    .vendor-right {
+      display: flex;
+      background-color: black;
+      color: white;
+      flex: 0.5;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+
+      h1 {
+        font-size: 70px;
+      }
+      h3 {
+        font-size: 35px;
+      }
+    }
+  }
+  .vendor-2-container {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    .vendor-right {
+      display: flex;
+      flex: 0.5;
+    }
+    .vendor-left {
+      display: flex;
+      background-color: black;
+      color: white;
+      flex: 0.5;
+      flex-direction: column;
+      margin: auto;
+      text-align: center;
+
+      h1 {
+        font-size: 70px;
+      }
+      h3 {
+        font-size: 35px;
+      }
+    }
+  }
+}

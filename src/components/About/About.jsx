@@ -22,6 +22,7 @@ export default function About() {
             </Slide>
           </div>
         </div>
+        <div className="transition"></div>
       </Parallax>
     </div>
   );

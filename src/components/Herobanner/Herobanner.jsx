@@ -36,6 +36,7 @@ export default function Herobanner() {
             </Parallax>
           </div>
         </div>
+        <div className="transition"></div>
       </Parallax>
     </div>
   );

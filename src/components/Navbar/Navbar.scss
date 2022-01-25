@@ -47,7 +47,9 @@
       font-weight: bolder;
 
       @include mobile {
-        font-size: 25px;
+        h3 {
+          font-size: 20px;
+        }
       }
       @include tablet {
         font-size: 25px;

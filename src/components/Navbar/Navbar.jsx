@@ -19,7 +19,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               icon={faGlassMartiniAlt}
               style={{ color: "teal", paddingRight: "6px" }}
             ></FontAwesomeIcon>
-            Bartique
+            <h3>Bartique & Gallery</h3>
           </a>
           <div className="itemContainer">
             <span id="phone-number">

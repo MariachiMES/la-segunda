@@ -11,6 +11,12 @@
     width: 100%;
     height: 60vh;
 
+    @include mobile {
+      flex-direction: column;
+      width: 100%;
+      height: 60vh;
+    }
+
     .vendor-1-text {
       margin: 0;
       color: white;
@@ -26,6 +32,10 @@
     .vendor-left {
       display: flex;
       flex: 0.5;
+
+      @include mobile {
+        flex: 0.9;
+      }
     }
     .vendor-right {
       display: flex;
@@ -35,6 +45,9 @@
       flex-direction: column;
       margin: auto;
       text-align: center;
+      @include mobile {
+        display: none;
+      }
 
       h1 {
         font-size: 70px;
@@ -56,6 +69,11 @@
     display: flex;
     width: 100%;
     height: 60vh;
+    @include mobile {
+      flex-direction: column;
+      width: 100%;
+      height: 60vh;
+    }
     .vendor-2-text {
       color: white;
       text-align: right;
@@ -67,6 +85,9 @@
     .vendor-right {
       display: flex;
       flex: 0.5;
+      @include mobile {
+        flex: 0.9;
+      }
     }
     .vendor-left {
       display: flex;
@@ -76,6 +97,9 @@
       flex-direction: column;
       margin: auto;
       text-align: center;
+      @include mobile {
+        display: none;
+      }
 
       h1 {
         font-size: 70px;

@@ -5,7 +5,6 @@
   padding: 0;
   display: flex;
   height: 100%;
-  top: -300;
   background-size: cover;
 
   @include mobile {
@@ -49,14 +48,27 @@
             }
           }
         }
+        .desktop-call {
+          color: white;
+          text-align: center;
+          margin-top: 20px;
+          font-size: 70px;
+          display: flex;
+          margin: auto;
+          transform: translate(25%, 0);
+          @include mobile {
+            display: none;
+          }
+        }
         .call-to-action {
           color: white;
           text-align: center;
           margin-top: 20px;
           font-size: 70px;
+          display: flex;
 
           @include mobile {
-            display: flex;
+            display: block;
             flex-direction: column;
             font-size: 60px;
             margin-top: 20px;

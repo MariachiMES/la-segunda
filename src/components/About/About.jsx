@@ -1,6 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 import "./About.scss";
+import { Slide } from "react-reveal";
 
 export default function About() {
   return (
@@ -10,14 +11,15 @@ export default function About() {
         bgImageSize="cover"
         className="about-parallax"
         strength={500}
-        bgImageStyle={{ width: "100vw", height: "auto" }}
       >
         <div className="big-container">
           <div className="text-container">
-            <div className="about-text">
-              <h1>Vintage Things and Drinks</h1>
-              <h3>Antiques.</h3>
-            </div>
+            <Slide left>
+              <div className="about-text">
+                <h1>Vintage Things and Drinks</h1>
+                <h3>Antiques.</h3>
+              </div>
+            </Slide>
           </div>
         </div>
       </Parallax>

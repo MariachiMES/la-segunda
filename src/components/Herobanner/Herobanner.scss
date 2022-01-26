@@ -1,4 +1,7 @@
 @import "../../global.scss";
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 .HeroBanner {
   margin: 0;
@@ -79,7 +82,7 @@
     }
   }
   .transition {
-    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(0, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
     height: 75px;
   }
 }

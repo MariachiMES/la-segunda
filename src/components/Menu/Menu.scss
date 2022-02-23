@@ -1,9 +1,10 @@
 @import "../../global.scss";
+@import "../../App.css";
 .menu {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "RetroTeam";
   width: 300px;
   height: 100%;
-  background-color: rgba(255, 174, 0, 0.555);
+  background-color: rgba(0, 247, 255, 0.555);
   position: fixed;
   top: 0;
   backdrop-filter: blur(0.3rem);
@@ -19,6 +20,7 @@
   .street-address {
     font-size: 19px;
     display: none;
+    text-shadow: black 2px 2px 2px;
 
     @include mobile {
       display: flex;
@@ -39,6 +41,7 @@
     flex-direction: column;
     margin-top: 20px;
     text-align: center;
+    text-shadow: black 2px 2px 2px;
 
     h2 {
       font-weight: lighter;

@@ -1,11 +1,11 @@
-const MetaDecorator = ({title, description}) => {
+const MetaDecorator = ({title, description, imageUrl, imageAlt}) => {
     return (
         <Helmet>
-            <title></title>
-<meta property="og:title" content="European Travel Destinations">
+            <title>{title}</title>
+<meta property="og:title" content={description}>
 <meta property="og:type" content="article" />
-<meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
-<meta property="og:url" content="http://euro-travel-example.com/index.htm">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
 <meta name="twitter:card" content="summary_large_image"></meta>
 <!--  Non-Essential, But Recommended -->
 <meta property="og:description" content="Offering tour packages for individuals or groups.">
@@ -17,5 +17,8 @@ const MetaDecorator = ({title, description}) => {
 MetaDecorator.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
+    imageRul: PropTypes.string.isRequired,
+    imageAlt: PropTypes.string.isRequired,
+
 };
 export default MetaDecorator;

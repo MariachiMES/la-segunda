@@ -1,6 +1,8 @@
 @import "../../global.scss";
-* {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+@font-face {
+  font-family: "RetroTeam";
+  src: url("../../fonts/RetroTeam.otf");
+  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
 
 .HeroBanner {
@@ -52,6 +54,7 @@
           }
         }
         .desktop-call {
+          font-family: RetroTeam;
           color: white;
           text-align: center;
           margin-top: 20px;

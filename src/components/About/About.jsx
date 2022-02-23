@@ -14,12 +14,12 @@ export default function About() {
       >
         <div className="big-container">
           <div className="text-container">
-            <Slide left>
-              <div className="about-text">
+            <div className="about-text">
+              <Slide left>
                 <h1>Vintage Gallery.</h1>
                 <h3>Classic Drinks.</h3>
-              </div>
-            </Slide>
+              </Slide>
+            </div>
           </div>
         </div>
         <div className="transition"></div>

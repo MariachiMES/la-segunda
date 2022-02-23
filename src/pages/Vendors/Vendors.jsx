@@ -9,7 +9,7 @@ export default function Vendors() {
       <div className="vendor-1-container">
         <Parallax
           className="vendor-left"
-          bgImage={require("../../public/images/P1240799.JPG")}
+          bgImage={require("../../public/images/P1240799-min.JPG")}
           bgImageStyle={{ backgroundSize: "cover" }}
           strengt={1000}
         >
@@ -36,7 +36,7 @@ export default function Vendors() {
         </div>
         <Parallax
           className="vendor-right"
-          bgImage={require("../../public/images/P1240797.JPG")}
+          bgImage={require("../../public/images/P1240797-min.JPG")}
           bgImageStyle={{ backgroundSize: "cover" }}
           strengt={1000}
         >
@@ -78,7 +78,7 @@ export default function Vendors() {
         </div>
         <Parallax
           className="vendor-right"
-          bgImage={require("../../public/images/P1240830.JPG")}
+          bgImage={require("../../public/images/P1240830-min.JPG")}
           bgImageStyle={{ backgroundSize: "cover" }}
           strengt={1000}
         >

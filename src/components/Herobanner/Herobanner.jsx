@@ -9,7 +9,7 @@ export default function Herobanner() {
     <div className="HeroBanner">
       <Parallax
         className="parallax-banner"
-        bgImage={require("../../public/images/radio-bg.png")}
+        bgImage={require("../../public/images/radio-bg-min.png")}
         strength={500}
         bgImageStyle={{ top: -375 }}
       >

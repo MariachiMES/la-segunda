@@ -1,5 +1,6 @@
 @import "../../global.scss";
 .menu {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   width: 300px;
   height: 100%;
   background-color: rgba(255, 174, 0, 0.555);
@@ -13,16 +14,16 @@
   flex-direction: column;
   color: white;
   align-items: center;
-  justify-content: center;
   border-left: rgb(255, 14, 66) solid 5px;
 
   .street-address {
+    font-size: 19px;
     display: none;
 
     @include mobile {
       display: flex;
       flex-direction: column;
-      margin-top: 40px;
+      margin-top: 20px;
       text-align: center;
 
       h2 {
@@ -36,7 +37,7 @@
   .hours {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 
     h2 {
@@ -57,9 +58,9 @@
   }
   ul {
     margin: 0;
-    padding: 0;
+    padding: 50px;
     list-style: none;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 
     @include mobile {
@@ -68,7 +69,7 @@
     }
 
     li {
-      margin: 40px;
+      margin: 20px;
       @include mobile {
         margin-bottom: 20px;
       }

@@ -1,5 +1,6 @@
 import React from "react";
+import "./Footer.scss";
 
 export default function Footer() {
-  return <div>A Davey App Created by David Ortiz 2022</div>;
+  return <div className="footer">coded in REACT by david ortiz</div>;
 }

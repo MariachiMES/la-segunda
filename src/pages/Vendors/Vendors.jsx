@@ -15,7 +15,7 @@ export default function Vendors() {
         >
           <div className="vendor-1-text">
             <Slide left>
-              <h1>Vendor 1</h1>
+              <h1>Vendor SELL</h1>
             </Slide>
           </div>
         </Parallax>

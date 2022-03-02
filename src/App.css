@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.retro-team-font {
+  font-family: "RetroTeam";
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,23 +44,23 @@
 }
 @font-face {
   font-family: "DJIcons";
-  src: url("./fonts/DJIcons.ttf");
+  src: local("./fonts/DJIcons.ttf");
   /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
 @font-face {
   font-family: "RetroTeam";
-  src: url("./fonts/RetroTeam.otf");
+  src: local("./fonts/RetroTeam.otf");
   /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
 
 @font-face {
   font-family: "SocialMediaCircled";
-  src: url("./fonts/SocialMediaCircled.otf");
+  src: local("./fonts/SocialMediaCircled.otf");
   /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
 
 @font-face {
   font-family: "DIN-Regular";
-  src: url("./fonts/din-condensed/DIN-Regular.ttf");
+  src: local("./fonts/din-condensed/DIN-Regular.ttf");
   /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }

@@ -21,11 +21,13 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           </li>
         </ul>
         <div className="street-address">
-          {" "}
-          <h2>La Segunda</h2>
-          <h3>1302 S St. Mary's </h3>
-          <h3>San Antonio, TX 78210</h3>
-          <h3>210.314.2740</h3>
+          <div className="retro-team-font">
+            {" "}
+            <h2>La Segunda</h2>
+            <h3>1302 S St. Mary's </h3>
+            <h3>San Antonio, TX 78210</h3>
+            <h3>210.314.2740</h3>
+          </div>
         </div>
         <div className="hours">
           <h2>Hours of operation</h2>

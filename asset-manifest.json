@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/la-segunda/static/css/main.692b2f72.css",
-    "main.js": "/la-segunda/static/js/main.b83aa102.js",
+    "main.css": "/la-segunda/static/css/main.cb2d90ae.css",
+    "main.js": "/la-segunda/static/js/main.5d74a80f.js",
     "static/js/787.0218dedd.chunk.js": "/la-segunda/static/js/787.0218dedd.chunk.js",
     "static/media/radio-bg-min.png": "/la-segunda/static/media/radio-bg-min.2bee20e68ab404149bf2.png",
     "static/media/P1240685.JPG": "/la-segunda/static/media/P1240685.5c61d92d1c1fca135214.JPG",
@@ -12,18 +12,17 @@
     "static/media/P1240797-min.JPG": "/la-segunda/static/media/P1240797-min.ee418877ccd622d3a411.JPG",
     "static/media/P1240799-min.JPG": "/la-segunda/static/media/P1240799-min.be715c70a7d152261578.JPG",
     "static/media/RetroTeam.otf": "/la-segunda/static/media/RetroTeam.75db02516fd49550a8a1.otf",
-    "static/media/SocialMediaCircled.otf": "/la-segunda/static/media/SocialMediaCircled.f3499d607266ad00820f.otf",
+    "static/media/Socials.otf": "/la-segunda/static/media/Socials.f3499d607266ad00820f.otf",
     "static/media/DJIcons.ttf": "/la-segunda/static/media/DJIcons.d55988ee2a1d146b5a4c.ttf",
-    "static/media/DIN-Bold.ttf": "/la-segunda/static/media/DIN-Bold.b4aac188a9bbac4c1c63.ttf",
     "static/media/DIN-Regular.ttf": "/la-segunda/static/media/DIN-Regular.93f8fccd22ac0821a21c.ttf",
     "static/media/facebook-icon.png": "/la-segunda/static/media/facebook-icon.eab65c06e53dcc769022.png",
     "index.html": "/la-segunda/index.html",
-    "main.692b2f72.css.map": "/la-segunda/static/css/main.692b2f72.css.map",
-    "main.b83aa102.js.map": "/la-segunda/static/js/main.b83aa102.js.map",
+    "main.cb2d90ae.css.map": "/la-segunda/static/css/main.cb2d90ae.css.map",
+    "main.5d74a80f.js.map": "/la-segunda/static/js/main.5d74a80f.js.map",
     "787.0218dedd.chunk.js.map": "/la-segunda/static/js/787.0218dedd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.692b2f72.css",
-    "static/js/main.b83aa102.js"
+    "static/css/main.cb2d90ae.css",
+    "static/js/main.5d74a80f.js"
   ]
 }

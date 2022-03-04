@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/la-segunda/static/css/main.ddbf48cd.css",
+    "main.css": "/la-segunda/static/css/main.b9f361d2.css",
     "main.js": "/la-segunda/static/js/main.de4c6ac6.js",
     "static/js/787.0218dedd.chunk.js": "/la-segunda/static/js/787.0218dedd.chunk.js",
     "static/media/radio-bg-min.png": "/la-segunda/static/media/radio-bg-min.2bee20e68ab404149bf2.png",
@@ -17,12 +17,12 @@
     "static/media/DIN-Regular.ttf": "/la-segunda/static/media/DIN-Regular.93f8fccd22ac0821a21c.ttf",
     "static/media/facebook-icon.png": "/la-segunda/static/media/facebook-icon.eab65c06e53dcc769022.png",
     "index.html": "/la-segunda/index.html",
-    "main.ddbf48cd.css.map": "/la-segunda/static/css/main.ddbf48cd.css.map",
+    "main.b9f361d2.css.map": "/la-segunda/static/css/main.b9f361d2.css.map",
     "main.de4c6ac6.js.map": "/la-segunda/static/js/main.de4c6ac6.js.map",
     "787.0218dedd.chunk.js.map": "/la-segunda/static/js/787.0218dedd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddbf48cd.css",
+    "static/css/main.b9f361d2.css",
     "static/js/main.de4c6ac6.js"
   ]
 }

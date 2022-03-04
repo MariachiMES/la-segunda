@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "./fonts/din-condensed/DIN-Bold.ttf";
+import "./fonts/din-condensed/DIN-Regular.ttf";
 import "./fonts/DJIcons.ttf";
 import "./fonts/RetroTeam.otf";
 import "./fonts/SocialMediaCircled.otf";

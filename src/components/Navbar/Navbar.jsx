@@ -19,24 +19,24 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               icon={faGlassMartiniAlt}
               style={{ color: "teal", paddingRight: "6px" }}
             ></FontAwesomeIcon>
-            <h3>Bartique & Gallery</h3>
+            <h3 className="retro-team-font">Bartique & Gallery</h3>
           </a>
           <div className="itemContainer">
-            <span id="phone-number">
+            <span id="phone-number" className="retro-team-font">
               <FontAwesomeIcon
                 icon={faHeadphones}
                 style={{ color: "red", paddingRight: "6px", fontSize: "30px" }}
               ></FontAwesomeIcon>
               210.314.2740
             </span>
-            <span id="address">
+            <span id="address" className="retro-team-font">
               <FontAwesomeIcon
                 icon={faMicrophone}
                 style={{ color: "teal", paddingRight: "6px", fontSize: "30px" }}
               ></FontAwesomeIcon>
               1302 S St. Mary's
             </span>
-            <span id="email-address">
+            <span id="email-address" className="retro-team-font">
               <a href="mailto: someEmail@email.com">
                 <FontAwesomeIcon
                   icon={faIcons}

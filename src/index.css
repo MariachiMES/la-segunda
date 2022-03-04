@@ -13,23 +13,26 @@ code {
 }
 @font-face {
   font-family: "DJIcons";
-  src: url("./fonts/DJIcons.ttf");
+  src: local("DJIcons"), url("./fonts/DJIcons.ttf") format("ttf");
+
   /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
 @font-face {
   font-family: "RetroTeam";
-  src: url("./fonts/RetroTeam.otf");
+  src: local("RetroTeam"), url("./fonts/RetroTeam.otf") format("otf");
   /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
 
 @font-face {
   font-family: "SocialMediaCircled";
-  src: url("./fonts/SocialMediaCircled.otf");
+  src: local("SocialMediaCircled"),
+    url("./fonts/SocialMediaCircled.otf") format("otf");
   /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
 
 @font-face {
   font-family: "DIN-Regular";
-  src: url("./fonts/din-condensed/DIN-Regular.ttf");
+  src: local("DIN-Regular"),
+    url("./fonts/din-condensed/DIN-Regular.ttf") format("ttf");
   /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }

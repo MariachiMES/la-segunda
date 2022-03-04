@@ -15,14 +15,14 @@ export default function Vendors() {
         >
           <div className="vendor-1-text">
             <Slide left>
-              <h1>Vendor SELL</h1>
+              <h1 className="retro-team-font">Vendor 1</h1>
             </Slide>
           </div>
         </Parallax>
         <div className="vendor-right">
           <Slide right>
-            <h1>Someone Selling Stuff</h1>
-            <h3>The Stuff They Sell</h3>
+            <h1 className="retro-team-font">Someone Selling Stuff</h1>
+            <h3 className="retro-team-font">The Stuff They Sell</h3>
           </Slide>
         </div>
       </div>
@@ -30,8 +30,8 @@ export default function Vendors() {
         <div className="vendor-left">
           {" "}
           <Slide left>
-            <h1>Someone Selling Stuff</h1>
-            <h3>The Stuff They Sell</h3>
+            <h1 className="retro-team-font">Someone Selling Stuff</h1>
+            <h3 className="retro-team-font">The Stuff They Sell</h3>
           </Slide>
         </div>
         <Parallax
@@ -43,7 +43,7 @@ export default function Vendors() {
           {" "}
           <div className="vendor-2-text">
             <Slide right>
-              <h1>Vendor 2</h1>
+              <h1 className="retro-team-font">Vendor 2</h1>
             </Slide>
           </div>
         </Parallax>
@@ -57,14 +57,14 @@ export default function Vendors() {
         >
           <div className="vendor-1-text">
             <Slide left>
-              <h1>Vendor 3</h1>
+              <h1 className="retro-team-font">Vendor 3</h1>
             </Slide>
           </div>
         </Parallax>
         <div className="vendor-right">
           <Slide right>
-            <h1>Someone Selling Stuff</h1>
-            <h3>The Stuff They Sell</h3>
+            <h1 className="retro-team-font">Someone Selling Stuff</h1>
+            <h3 className="retro-team-font">The Stuff They Sell</h3>
           </Slide>
         </div>
       </div>
@@ -72,8 +72,8 @@ export default function Vendors() {
         <div className="vendor-left">
           {" "}
           <Slide left>
-            <h1>Someone Selling Stuff</h1>
-            <h3>The Stuff They Sell</h3>
+            <h1 className="retro-team-font">Someone Selling Stuff</h1>
+            <h3 className="retro-team-font">The Stuff They Sell</h3>
           </Slide>
         </div>
         <Parallax
@@ -85,7 +85,7 @@ export default function Vendors() {
           {" "}
           <div className="vendor-2-text">
             <Slide right>
-              <h1>Vendor 4</h1>
+              <h1 className="retro-team-font">Vendor 4</h1>
             </Slide>
           </div>
         </Parallax>

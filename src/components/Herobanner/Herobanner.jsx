@@ -3,6 +3,9 @@ import "./Herobanner.scss";
 import { Parallax } from "react-parallax";
 import Slide from "react-reveal";
 import { Zoom } from "react-reveal";
+// import "../fonts/DJIcons.ttf";
+// import "../fonts/RetroTeam.otf";
+// import "../fonts/SocialMediaCircled.otf";
 
 export default function Herobanner() {
   return (
@@ -23,7 +26,11 @@ export default function Herobanner() {
               </Zoom>
             </div>
             <div className="desktop-call">
-              <Slide bottom>DRINK.GROOVE.ANTIQUE</Slide>
+              <Slide bottom>
+                <h1 className="retro-team-font smaller-please">
+                  DRINK. GROOVE. ANTIQUE
+                </h1>
+              </Slide>
             </div>
             <Parallax className="call-to-action" strength={1000}>
               {" "}

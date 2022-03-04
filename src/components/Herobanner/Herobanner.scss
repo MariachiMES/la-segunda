@@ -1,10 +1,15 @@
 @import "../../global.scss";
 @font-face {
   font-family: "RetroTeam";
-  src: url("../../fonts/RetroTeam.otf");
+  src: local("RetroTeam"), url("../../fonts/RetroTeam.otf");
   /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
-
+.retro-team-font {
+  font-family: "RetroTeam";
+}
+.smaller-please {
+  font-size: 100px;
+}
 .HeroBanner {
   margin: 0;
   padding: 0;

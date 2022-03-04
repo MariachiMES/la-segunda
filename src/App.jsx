@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Landing />
+      <Landing className="RetroTeam" />
       <Vendors />
       <Footer />
     </div>

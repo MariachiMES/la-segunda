@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./fonts/din-condensed/DIN-Regular.ttf";
 import "./fonts/DJIcons.ttf";
 import "./fonts/RetroTeam.otf";
-import "./fonts/SocialMediaCircled.otf";
+import "./fonts/Socials.otf";
 
 ReactDOM.render(
   <React.StrictMode>

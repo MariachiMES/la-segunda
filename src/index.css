@@ -14,25 +14,19 @@ code {
 @font-face {
   font-family: "DJIcons";
   src: local("DJIcons"), url("./fonts/DJIcons.ttf") format("ttf");
-
-  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
 @font-face {
   font-family: "RetroTeam";
   src: local("RetroTeam"), url("./fonts/RetroTeam.otf") format("otf");
-  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }
 
 @font-face {
-  font-family: "SocialMediaCircled";
-  src: local("SocialMediaCircled"),
-    url("./fonts/SocialMediaCircled.otf") format("otf");
-  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
+  font-family: "Socials";
+  src: local("Socials"), url("./fonts/Socials.otf") format("otf");
 }
 
 @font-face {
   font-family: "DIN-Regular";
   src: local("DIN-Regular"),
     url("./fonts/din-condensed/DIN-Regular.ttf") format("ttf");
-  /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
 }

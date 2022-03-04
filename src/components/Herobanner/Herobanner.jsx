@@ -36,8 +36,9 @@ export default function Herobanner() {
               {" "}
               <Slide right cascade>
                 <div>
-                  <p>DRINK.</p> <p>GROOVE.</p>
-                  <p>ANTIQUE.</p>
+                  <p className="retro-team-font">DRINK.</p>{" "}
+                  <p className="retro-team-font">GROOVE.</p>
+                  <p className="retro-team-font">ANTIQUE.</p>
                 </div>
               </Slide>
             </Parallax>

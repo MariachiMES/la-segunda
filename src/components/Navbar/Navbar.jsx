@@ -36,7 +36,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               ></FontAwesomeIcon>
               1302 S St. Mary's
             </span>
-            <span id="email-address" className="retro-team-font">
+            <span id="email-address">
               <a href="mailto: someEmail@email.com">
                 <FontAwesomeIcon
                   icon={faIcons}
@@ -47,10 +47,13 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
                     textShadow: "black 2px 2px",
                   }}
                 ></FontAwesomeIcon>
+              </a>
+              <a className="retro-team-font" href="mailto: someEmail@email.com">
                 Email
               </a>
             </span>
             <div className="socials">
+              <h1 className="retro-team-font"></h1>
               <a
                 href="https://www.instagram.com/la_segunda_bartiqueandgallery/"
                 targe="_blank"

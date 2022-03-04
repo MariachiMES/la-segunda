@@ -10,7 +10,12 @@
 .din-font {
   font-family: "DIN-Regular";
 }
-
+.social-font {
+  font-family: "SocialMediaCircled";
+}
+.dji-font {
+  font-family: "DJIcons";
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

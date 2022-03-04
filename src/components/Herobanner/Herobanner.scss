@@ -42,6 +42,7 @@
           height: auto;
           padding-top: 60px;
           @include mobile {
+            padding-top: 150px;
           }
 
           img {

@@ -56,7 +56,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               <h1 className="retro-team-font"></h1>
               <a
                 href="https://www.instagram.com/la_segunda_bartiqueandgallery/"
-                targe="_blank"
+                target="_blank"
               >
                 <img
                   src={require("../../public/images/instagram-icon.png")}
@@ -69,7 +69,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               </a>
               <a
                 href="https://m.facebook.com/people/La-Segunda-Bartique-Gallery/100073228684341/"
-                targe="_blank"
+                target="_blank"
               >
                 <img
                   src={require("../../public/images/facebook-icon.png")}

@@ -9,17 +9,17 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         <ul>
           <li onClick={() => setMenuOpen(false)}>
             <a className="retro-team-font" href="#about-me">
-              Things at La Segunda
+              Top Stitch Vintage
             </a>
           </li>
           <li onClick={() => setMenuOpen(false)}>
             <a className="retro-team-font" href="#portfolio">
-              Other Things At La Segunda
+              Vendor 2
             </a>
           </li>
           <li onClick={() => setMenuOpen(false)}>
             <a className="retro-team-font" href="#morethings">
-              More Things at La Segunda
+              Vender 3
             </a>
           </li>
           <li onClick={() => setMenuOpen(false)}>

@@ -15,14 +15,14 @@ export default function Vendors() {
         >
           <div className="vendor-1-text">
             <Slide left>
-              <h1 className="retro-team-font">Vendor 1</h1>
+              <h1 className="retro-team-font">Top Stitch Vintage</h1>
             </Slide>
           </div>
         </Parallax>
         <div className="vendor-right">
           <Slide right>
-            <h1 className="retro-team-font">Someone Selling Stuff</h1>
-            <h3 className="retro-team-font">The Stuff They Sell</h3>
+            <h1 className="retro-team-font">Scott Kimrey</h1>
+            <h3 className="retro-team-font">Vintage Clothing & Kitsch</h3>
           </Slide>
         </div>
       </div>
